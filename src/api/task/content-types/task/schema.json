@@ -18,6 +18,14 @@
     },
     "description": {
       "type": "text"
+    },
+    "hasDescription": {
+      "type": "string",
+      "description": "has description"
+    },
+    "hasContent": {
+      "type": "string",
+      "description": "has description"
     }
   }
 }
