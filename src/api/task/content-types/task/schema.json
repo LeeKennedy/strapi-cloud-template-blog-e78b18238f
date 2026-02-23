@@ -26,6 +26,14 @@
     "hasContent": {
       "type": "string",
       "description": "has description"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "Active",
+        "Inactive",
+        "Pending"
+      ]
     }
   }
 }
