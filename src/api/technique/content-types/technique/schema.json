@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "techniques",
+  "info": {
+    "singularName": "technique",
+    "pluralName": "techniques",
+    "displayName": "Technique",
+    "description": "Technique content type synced from Stardog ontology"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "hasContent": {
+      "type": "string",
+      "description": "has description"
+    }
+  }
+}
