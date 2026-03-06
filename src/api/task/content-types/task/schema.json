@@ -25,15 +25,13 @@
     },
     "hasContent": {
       "type": "string",
-      "description": "has description"
+      "description": "has content"
     },
-    "status": {
-      "type": "enumeration",
-      "enum": [
-        "Active",
-        "Inactive",
-        "Pending"
-      ]
+    "usesTechnique": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::technique.technique",
+      "description": "Relates a Task to the Technique(s) used to perform it."
     }
   }
 }
