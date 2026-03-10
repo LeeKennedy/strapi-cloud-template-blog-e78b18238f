@@ -22,6 +22,9 @@
     "hasContent": {
       "type": "string",
       "description": "has content"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
