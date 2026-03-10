@@ -29,6 +29,12 @@
     },
     "slug": {
       "type": "string"
+    },
+    "usesTechnique": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::technique.technique",
+      "description": "Relates a Task to the Technique(s) used to perform it."
     }
   }
 }
