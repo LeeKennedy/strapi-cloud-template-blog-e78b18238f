@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "hasDescription": "text",
+    "hasContent": "richtext"
+  },
+  "techniques": {
+    "hasContent": "richtext"
+  }
+}
