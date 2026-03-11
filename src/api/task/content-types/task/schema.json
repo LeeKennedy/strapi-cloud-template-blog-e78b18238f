@@ -20,11 +20,11 @@
       "type": "text"
     },
     "hasDescription": {
-      "type": "string",
+      "type": "text",
       "description": "has description"
     },
     "hasContent": {
-      "type": "string",
+      "type": "richtext",
       "description": "has content"
     },
     "slug": {
