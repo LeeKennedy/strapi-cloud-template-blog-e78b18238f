@@ -1,21 +1,30 @@
 'use strict';
 const bootstrap = require("./bootstrap");
 
-module.exports = {
-  /**
-   * An asynchronous register function that runs before
-   * your application is initialized.
-   *
-   * This gives you an opportunity to extend code.
-   */
-  register(/*{ strapi }*/) {},
+function toSlug(str) {
+  return str
+    .toLowerCase()
+    .trim()
+    .replace(/[^\w\s-]/g, '')
+    .replace(/[\s_-]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
 
-  /**
-   * An asynchronous bootstrap function that runs before
-   * your application gets started.
-   *
-   * This gives you an opportunity to set up your data model,
-   * run jobs, or perform some special logic.
-   */
+module.exports = {
+  register({ strapi }) {
+    strapi.documents.use(async (context, next) => {
+
+      // Populate slug field if empty
+      if (context.action === 'create') {
+        const schema = strapi.contentType(context.uid);
+        const data = context.params?.data;
+        if (schema?.attributes?.slug && data && !data.slug && data.title) {
+          data.slug = toSlug(data.title);
+        }
+      }
+      return next();
+    });
+  },
+
   bootstrap,
 };
