@@ -1,7 +1,14 @@
 {
   "tasks": {
     "hasDescription": "text",
-    "hasContent": "richtext"
+    "hasContent": "richtext",
+    "purpose": "text",
+    "description": "richtext",
+    "inputs": "richtext",
+    "elements": "richtext",
+    "guidelinesAndTools": "richtext",
+    "stakeholders": "richtext",
+    "outputs": "richtext"
   },
   "techniques": {
     "hasContent": "richtext"

@@ -30,6 +30,30 @@
     "slug": {
       "type": "string"
     },
+    "purpose": {
+      "type": "text",
+      "description": "purpose"
+    },
+    "inputs": {
+      "type": "richtext",
+      "description": "inputs"
+    },
+    "elements": {
+      "type": "richtext",
+      "description": "elements"
+    },
+    "guidelinesAndTools": {
+      "type": "richtext",
+      "description": "guidelines and tools"
+    },
+    "stakeholders": {
+      "type": "richtext",
+      "description": "stakeholders"
+    },
+    "outputs": {
+      "type": "richtext",
+      "description": "outputs"
+    },
     "usesTechnique": {
       "type": "relation",
       "relation": "manyToMany",
