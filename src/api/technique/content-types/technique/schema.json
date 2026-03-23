@@ -23,7 +23,7 @@
       "type": "string"
     },
     "elements": {
-      "type": "blocks",
+      "type": "richtext",
       "description": "elements"
     }
   }
