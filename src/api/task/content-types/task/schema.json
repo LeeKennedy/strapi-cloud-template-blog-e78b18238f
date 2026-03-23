@@ -31,7 +31,7 @@
       "description": "inputs"
     },
     "elements": {
-      "type": "richtext",
+      "type": "blocks",
       "description": "elements"
     },
     "guidelinesAndTools": {

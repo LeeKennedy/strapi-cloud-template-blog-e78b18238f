@@ -21,6 +21,10 @@
     },
     "slug": {
       "type": "string"
+    },
+    "elements": {
+      "type": "blocks",
+      "description": "elements"
     }
   }
 }
