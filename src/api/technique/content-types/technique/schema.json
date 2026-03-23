@@ -19,10 +19,6 @@
     "description": {
       "type": "text"
     },
-    "hasContent": {
-      "type": "richtext",
-      "description": "has content"
-    },
     "slug": {
       "type": "string"
     }

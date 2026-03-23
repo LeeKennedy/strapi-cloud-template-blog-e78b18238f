@@ -1,16 +1,12 @@
 {
   "tasks": {
-    "hasDescription": "text",
-    "hasContent": "richtext",
     "purpose": "text",
     "description": "richtext",
     "inputs": "richtext",
     "elements": "richtext",
     "guidelinesAndTools": "richtext",
     "stakeholders": "richtext",
-    "outputs": "richtext"
-  },
-  "techniques": {
-    "hasContent": "richtext"
+    "outputs": "richtext",
+    "inputOutputDiagram": "media"
   }
 }
