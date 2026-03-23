@@ -30,6 +30,10 @@
       "type": "richtext",
       "description": "inputs"
     },
+    "elements": {
+      "type": "blocks",
+      "description": "elements"
+    },
     "guidelinesAndTools": {
       "type": "richtext",
       "description": "guidelines and tools"
