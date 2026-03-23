@@ -30,10 +30,6 @@
       "type": "richtext",
       "description": "inputs"
     },
-    "elements": {
-      "type": "richtext",
-      "description": "elements"
-    },
     "guidelinesAndTools": {
       "type": "richtext",
       "description": "guidelines and tools"
