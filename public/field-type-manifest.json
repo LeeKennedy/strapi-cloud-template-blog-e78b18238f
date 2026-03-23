@@ -3,13 +3,13 @@
     "purpose": "text",
     "description": "richtext",
     "inputs": "richtext",
-    "elements": "blocks",
+    "elements": "richtext",
     "guidelinesAndTools": "richtext",
     "stakeholders": "richtext",
     "outputs": "richtext",
     "inputOutputDiagram": "media"
   },
   "techniques": {
-    "elements": "blocks"
+    "elements": "richtext"
   }
 }
