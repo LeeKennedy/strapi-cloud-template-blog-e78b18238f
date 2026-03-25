@@ -25,6 +25,13 @@
     "elements": {
       "type": "blocks",
       "description": "elements"
+    },
+    "usedByTask": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::task.task",
+      "description": "Relates a Techinque to the Tasks it applies to.",
+      "mappedBy": "usesTechnique"
     }
   }
 }
