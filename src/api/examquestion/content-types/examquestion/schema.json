@@ -55,7 +55,8 @@
     "isQuestionOf": {
       "type": "relation",
       "relation": "manyToMany",
-      "target": "api::exam.exam"
+      "target": "api::exam.exam",
+      "mappedBy": "hasQuestion"
     }
   }
 }

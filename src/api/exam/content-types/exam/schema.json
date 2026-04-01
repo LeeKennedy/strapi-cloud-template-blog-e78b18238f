@@ -26,7 +26,8 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::examquestion.examquestion",
-      "description": "Links an exam to its questions"
+      "description": "Links an exam to its questions",
+      "inversedBy": "isQuestionOf"
     }
   }
 }
