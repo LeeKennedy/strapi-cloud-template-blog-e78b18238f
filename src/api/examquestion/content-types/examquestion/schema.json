@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "examquestions",
+  "info": {
+    "singularName": "examquestion",
+    "pluralName": "examquestions",
+    "displayName": "ExamQuestion",
+    "description": "ExamQuestion content type synced from Stardog ontology"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "question": {
+      "type": "richtext",
+      "description": "question"
+    },
+    "correctAnswer": {
+      "type": "string",
+      "description": "correct answer"
+    },
+    "correctRationale": {
+      "type": "richtext",
+      "description": "correct rationale"
+    },
+    "distractor1": {
+      "type": "string"
+    },
+    "distractor1Rationale": {
+      "type": "richtext"
+    },
+    "distractor2": {
+      "type": "string"
+    },
+    "distractor2Rationale": {
+      "type": "richtext"
+    },
+    "distractor3": {
+      "type": "string"
+    },
+    "distractor3Rationale": {
+      "type": "richtext"
+    },
+    "isQuestionOf": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::exam.exam"
+    }
+  }
+}

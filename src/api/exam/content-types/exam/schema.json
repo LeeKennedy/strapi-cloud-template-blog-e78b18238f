@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "exams",
+  "info": {
+    "singularName": "exam",
+    "pluralName": "exams",
+    "displayName": "Exam",
+    "description": "Exam content type synced from Stardog ontology"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "hasQuestion": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::examquestion.examquestion",
+      "description": "Links an exam to its questions"
+    }
+  }
+}

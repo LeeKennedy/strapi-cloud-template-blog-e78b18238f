@@ -11,5 +11,12 @@
   },
   "techniques": {
     "elements": "blocks"
+  },
+  "examquestions": {
+    "question": "richtext",
+    "correctRationale": "richtext",
+    "distractor1Rationale": "richtext",
+    "distractor2Rationale": "richtext",
+    "distractor3Rationale": "richtext"
   }
 }
