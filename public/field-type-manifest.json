@@ -18,5 +18,9 @@
     "distractor1Rationale": "richtext",
     "distractor2Rationale": "richtext",
     "distractor3Rationale": "richtext"
+  },
+  "conceptoverviewpages": {
+    "description": "richtext",
+    "body": "blocks"
   }
 }
