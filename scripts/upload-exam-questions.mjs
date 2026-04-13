@@ -14,8 +14,8 @@ if (!STRAPI_TOKEN) {
 }
 
 // Read and parse the CSV file
-const csv = fs.readFileSync('./scripts/exam-question-sample.csv', 'utf8');
-const rows = parse(csv, { columns: true, skip_empty_lines: true });
+const csv = fs.readFileSync('./scripts/ecba_form1_practice_questions.csv', 'utf8');
+const rows = parse(csv, { columns: true, skip_empty_lines: true, bom: true });
 
 // Looks up an exam by slug. The exam must already exist in Strapi admin
 // before running this script — it will not create exams automatically.
