@@ -55,10 +55,6 @@
       ],
       "description": "input output diagram"
     },
-    "outcome": {
-      "type": "richtext",
-      "description": "outcome"
-    },
     "usesTechnique": {
       "type": "relation",
       "relation": "manyToMany",

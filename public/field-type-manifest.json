@@ -7,8 +7,7 @@
     "guidelinesAndTools": "richtext",
     "stakeholders": "richtext",
     "outputs": "richtext",
-    "inputOutputDiagram": "media",
-    "outcome": "richtext"
+    "inputOutputDiagram": "media"
   },
   "techniques": {
     "elements": "blocks"
