@@ -46,10 +46,6 @@
       "type": "richtext",
       "description": "outputs"
     },
-    "outcome": {
-      "type": "richtext",
-      "description": "outcome"
-    },
     "inputOutputDiagram": {
       "type": "media",
       "multiple": false,
