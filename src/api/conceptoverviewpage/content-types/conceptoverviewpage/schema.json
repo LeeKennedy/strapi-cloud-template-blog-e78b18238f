@@ -23,7 +23,7 @@
       "type": "string"
     },
     "body": {
-      "type": "blocks",
+      "type": "string",
       "description": "body"
     }
   }

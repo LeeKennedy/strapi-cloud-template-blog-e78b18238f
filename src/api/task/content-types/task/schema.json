@@ -23,44 +23,32 @@
       "type": "string"
     },
     "purpose": {
-      "type": "text",
+      "type": "string",
       "description": "purpose"
     },
     "inputs": {
-      "type": "richtext",
+      "type": "string",
       "description": "inputs"
     },
     "elements": {
-      "type": "blocks",
+      "type": "string",
       "description": "elements"
     },
     "guidelinesAndTools": {
-      "type": "richtext",
+      "type": "string",
       "description": "guidelines and tools"
     },
     "stakeholders": {
-      "type": "richtext",
+      "type": "string",
       "description": "stakeholders"
     },
     "outputs": {
-      "type": "richtext",
+      "type": "string",
       "description": "outputs"
     },
     "inputOutputDiagram": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ],
+      "type": "string",
       "description": "input output diagram"
-    },
-    "usesTechnique": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::technique.technique",
-      "description": "Relates a Task to the Technique(s) used to perform it.",
-      "inversedBy": "usedByTask"
     }
   }
 }

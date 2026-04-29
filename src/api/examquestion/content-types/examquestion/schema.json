@@ -23,7 +23,7 @@
       "type": "string"
     },
     "question": {
-      "type": "richtext",
+      "type": "string",
       "description": "question"
     },
     "correctAnswer": {
@@ -31,32 +31,26 @@
       "description": "correct answer"
     },
     "correctRationale": {
-      "type": "richtext",
+      "type": "string",
       "description": "correct rationale"
     },
     "distractor1": {
       "type": "string"
     },
     "distractor1Rationale": {
-      "type": "richtext"
+      "type": "string"
     },
     "distractor2": {
       "type": "string"
     },
     "distractor2Rationale": {
-      "type": "richtext"
+      "type": "string"
     },
     "distractor3": {
       "type": "string"
     },
     "distractor3Rationale": {
-      "type": "richtext"
-    },
-    "isQuestionOf": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::exam.exam",
-      "mappedBy": "hasQuestion"
+      "type": "string"
     }
   }
 }
